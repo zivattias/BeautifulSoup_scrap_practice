@@ -1,0 +1,17 @@
+
+25 April 2014
+ List Ends  
+Exercise 12 (and Solution)
+Write a program that takes a list of numbers (for example, a = [5, 10, 15, 20, 25]) and makes a new list of only the first and last elements of the given list. For practice, write this code inside a function.
+Concepts to practice
+Lists and properties of lists
+List comprehensions (maybe)
+Functions
+Happy coding!
+Enjoying Practice Python?
+Buy me a coffee  
+Share the fun!
+« Previous exercise
+Next exercise »
+Please enable JavaScript to view the comments powered by Disqus.
+comments powered by Disqus

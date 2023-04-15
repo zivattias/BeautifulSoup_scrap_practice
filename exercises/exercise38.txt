@@ -1,0 +1,35 @@
+
+06 March 2022
+f Strings  
+Exercise 38 (and Solution)
+Exercise
+Implement the same exercise as Exercise 1 (Create a program that asks the user to enter their name and their age. Print out a message addressed to them that tells them the year that they will turn 100 years old), except use f-strings instead of the + operator to print the resulting output message.
+Discussion
+One very common operation programmers need to do is display information in the form of text output. In Python we use the print() function for this, but we need to keep one thing in mind: the print() function only takes strings. That means, when we want to display an integer, we need to convert it to a string before passing it to the print() function. When we have complicated numbers to display, this becomes burdensome.
+Instead, there is a built-in Python functionality called f-strings, short for formatted string literals that solve the problem for us!
+Variables
+For me, the most common use of f-strings is to automatically display variables in a string. The mechanism to do this is:
+Put the character “f” before the " from the string
+Put the variable name (or expression) between { } inside the string.
+For example, the following code displays my favorite color in a sentence:
+>>> color = "orange"
+>>> print(f"My favorite color is {color}.")
+My favorite color is orange.
+No need for concatenating strings with the + sign! Similarly for numbers:
+>>> number = 5
+>>> print(f"The number is {number}")
+The number is 5
+There are all kinds of options for formatting decimals too - how many numbers after the decimal point, pad with zeroes, etc. that the official documentation goes into in great detail, with examples, so I won’t do that here. Note that the examples are shown with the “old” .format() way of string formatting in Python, but it applies to f-strings as well.
+Expressions
+The really truly versatile thing that f-strings allow you to do is display expressions and not just variables. In some cases this is very useful, mostly for readability:
+>>> print(f"2 + 2 = {2 + 2}")
+2 + 2 = 4
+Hopefully with f-strings, you have a more compact way of displaying information to the terminal!
+Happy coding!
+Enjoying Practice Python?
+Buy me a coffee  
+Share the fun!
+« Previous exercise
+Next exercise »
+Please enable JavaScript to view the comments powered by Disqus.
+comments powered by Disqus
